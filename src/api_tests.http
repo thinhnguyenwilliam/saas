@@ -1,0 +1,15 @@
+### Kiểm thử Check Access (Subscription Service)
+# Bạn hãy click "Send Request" nhiều lần.
+# Biến current_usage sẽ tăng dần nhờ thuật toán Redis Lua Script.
+# Nếu bạn sửa maxQuota trong code xuống số nhỏ (vd: 5) rồi test lại, 
+# sau 5 lần nó sẽ chặn và trả về lỗi 429 QUOTA_EXCEEDED.
+POST http://localhost:3001/api/v1/features/check-access?merchant_id=merchant_123
+
+### -------------------------------------------------------------
+
+### Kiểm thử Tạo Đơn Hàng (Order Service)
+# Bấm "Send Request" để giả lập việc tạo 1 đơn hàng.
+# Order Service sẽ trả về HTTP 201 Created cực nhanh.
+# Và sau đó ngầm đẩy 1 sự kiện (ORDER_CREATED) vào Kafka.
+# Bạn hãy mở Log của Subscription Service lên xem, sẽ thấy Worker đã bắt được sự kiện này!
+POST http://localhost:4001/api/v1/orders?merchant_id=merchant_123

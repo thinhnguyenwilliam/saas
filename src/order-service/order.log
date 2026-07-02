@@ -1,0 +1,38 @@
+2026/07/02 08:16:45 Kafka Producer initialized
+2026/07/02 08:16:45 Order Service is running on port 4001...
+
+ ┌───────────────────────────────────────────────────┐ 
+ │                  Fiber v2.52.13                   │ 
+ │               http://127.0.0.1:4001               │ 
+ │       (bound on host 0.0.0.0 and port 4001)       │ 
+ │                                                   │ 
+ │ Handlers ............. 1  Processes ........... 1 │ 
+ │ Prefork ....... Disabled  PID ............ 239385 │ 
+ └───────────────────────────────────────────────────┘ 
+
+2026/07/02 08:16:53 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955013236825054,"timestamp":1782955013}
+2026/07/02 08:22:42 [Lỗi] Không thể gửi event lên Kafka: Kafka write errors (1/1), errors: [kafka.(*Client).Produce: dial tcp 127.0.0.1:9092: connect: connection refused]
+2026/07/02 08:25:13 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955513395915965,"timestamp":1782955513}
+2026/07/02 08:27:39 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955659029590357,"timestamp":1782955659}
+2026/07/02 08:28:24 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955704516139582,"timestamp":1782955704}
+2026/07/02 08:28:26 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955706462314675,"timestamp":1782955706}
+2026/07/02 08:28:27 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955707025356972,"timestamp":1782955707}
+2026/07/02 08:28:27 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955707537079498,"timestamp":1782955707}
+2026/07/02 08:28:28 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955707998456422,"timestamp":1782955707}
+2026/07/02 08:28:28 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955708132151636,"timestamp":1782955708}
+2026/07/02 08:28:28 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955708323885758,"timestamp":1782955708}
+2026/07/02 08:28:28 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955708501372032,"timestamp":1782955708}
+2026/07/02 08:28:28 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955708700472543,"timestamp":1782955708}
+2026/07/02 08:28:28 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955708914092883,"timestamp":1782955708}
+2026/07/02 08:28:29 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955709089503797,"timestamp":1782955709}
+2026/07/02 08:28:29 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955709281733171,"timestamp":1782955709}
+2026/07/02 08:28:29 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955709463353667,"timestamp":1782955709}
+2026/07/02 08:28:29 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955709655542759,"timestamp":1782955709}
+2026/07/02 08:28:29 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955709838675096,"timestamp":1782955709}
+2026/07/02 08:28:30 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955710044202571,"timestamp":1782955710}
+2026/07/02 08:28:30 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955710217671925,"timestamp":1782955710}
+2026/07/02 08:28:30 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955710420726873,"timestamp":1782955710}
+2026/07/02 08:28:30 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955710614744240,"timestamp":1782955710}
+2026/07/02 08:28:30 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955710801498789,"timestamp":1782955710}
+2026/07/02 08:28:30 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955710950065872,"timestamp":1782955710}
+2026/07/02 08:28:31 Đã bắn event cập nhật Usage lên Kafka: {"event_type":"ORDER_CREATED","merchant_id":"merchant_123","order_id":1782955711124407284,"timestamp":1782955711}
